@@ -1,0 +1,102 @@
+/*Principal.css By Ana Leon 0014-0231*/
+
+body {
+        font-family: "Verdana"; 
+	color: #192666;
+	background: #f2f5fe url("../imagenes/fondo.gif") no-repeat;
+}
+
+#contenedor  {
+        
+        width: 770px;
+        margin: 0 auto;
+        padding: 0 auto;
+}
+
+#cabecera {
+        position: relative;
+        width: auto;
+        height: 100px;
+        margin: 5px;
+        background: #233C9B url("../imagenes/cabecera.jpg") no-repeat;
+        color: whitesmoke;
+}
+
+#contenido {
+        width: 750px;
+        margin: auto auto 5px;
+}
+
+#contenido #principal {
+	float: left;
+	width: 530px;
+        margin: 5px auto 10px auto;
+} 
+
+#contenido secundario {
+	float: left;
+	width: 200px;
+} 
+
+
+#pie {
+        height: 40px; 	
+	width: 100%;
+	clear: both;
+        position: relative;
+        margin-bottom: 10px;
+        background: url("../imagenes/fondo_pie.jpg") no-repeat;
+        color: #6685CC;
+  
+}
+
+/*
+#buscador {
+	margin-left: 30em;
+}
+
+#menu {
+        background-color: #253575;
+        padding: .5em 1em .2em 1em;
+}
+
+#menu ul li {
+        height: 10px;
+	width: 100%;
+	list-style-type: none;
+    	display: inline;
+	color: #B5C4E3;
+	padding: .5em 1em .5em 1em;
+	font-size: 20px;
+}
+
+a {
+  color:#192666;
+}
+a:hover {
+  color:#4F6AD7;
+}
+
+
+#contenido {
+	float: left;
+        height: 100%;
+	
+}
+
+#articulo {
+	float: left;
+        height: 100%;
+	width: 70%;
+	margin-left: 10em;
+}
+
+
+
+
+#pie {
+        height: 20px; 	
+	width: 100%;
+	clear: both;
+}
+*/
