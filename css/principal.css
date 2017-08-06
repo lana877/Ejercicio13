@@ -19,12 +19,11 @@ body {
         height: 100px;
         margin: 5px;
         background: #233C9B url("../imagenes/cabecera.jpg") no-repeat;
-        color: whitesmoke;
 }
 
 #contenido {
         width: 750px;
-        margin: auto auto 5px;
+        margin: 0 0 0 5px;
 }
 
 #contenido #principal {
@@ -36,23 +35,15 @@ body {
 #contenido secundario {
 	float: left;
 	width: 200px;
+        margin: 10px auto 10px auto;
 } 
 
 
-#pie {
-        height: 40px; 	
-	width: 100%;
-	clear: both;
-        position: relative;
-        margin-bottom: 10px;
-        background: url("../imagenes/fondo_pie.jpg") no-repeat;
-        color: #6685CC;
-  
-}
-
-/*
 #buscador {
-	margin-left: 30em;
+	margin-left: 20em;
+        margin-top: 5px;
+        float: right;
+        padding: auto;       
 }
 
 #menu {
@@ -67,36 +58,23 @@ body {
     	display: inline;
 	color: #B5C4E3;
 	padding: .5em 1em .5em 1em;
-	font-size: 20px;
+	float:left;
 }
 
 a {
-  color:#192666;
+        color:#192666;
 }
+
 a:hover {
-  color:#4F6AD7;
+        color:#4F6AD7;
 }
-
-
-#contenido {
-	float: left;
-        height: 100%;
-	
-}
-
-#articulo {
-	float: left;
-        height: 100%;
-	width: 70%;
-	margin-left: 10em;
-}
-
-
-
 
 #pie {
-        height: 20px; 	
+        height: 40px; 	
 	width: 100%;
 	clear: both;
+        position: relative;
+        margin-bottom: 10px;
+        background: url("../imagenes/fondo_pie.jpg") no-repeat;
+        color: #6685CC;
 }
-*/
